@@ -6,7 +6,7 @@ import { useWeb3Provider } from './web3/Web3Provider'
 
 export function Wallet() {
   
-  // const { connect, logout } = useWeb3Provider()
+  const { connect, logout } = useWeb3Provider()
   const { ocean, accountId } = useOcean()
 
   const conn = async () => {
